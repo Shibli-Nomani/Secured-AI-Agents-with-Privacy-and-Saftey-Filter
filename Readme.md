@@ -5,8 +5,14 @@
 
 <h4>🔗 AI Agent Code</h4>
 
+
+- 🏃 **Github Code**: [Open in Github](https://github.com/Shibli-Nomani/Secured-AI-Agents-with-Privacy-and-Saftey-Filter/blob/master/Secured_AI_Agents_with_Privacy_and_Safety_Filters.ipynb)  
 - 🚀 **Colab Code**: [Open in Colab](https://colab.research.google.com/drive/1xi1PclScl8TXrmWuJsRsYW0Ryw0L8FFk?usp=sharing)  
 - 📊 **Kaggle Code**: [Open in Kaggle](https://www.kaggle.com/code/shiblinomani/secured-ai-agents-with-privacy-and-safety-filters)
+
+<h4> 🎯 AI Agent Dicision and Limitation </h4>
+
+- 🐥 **Github File**: [Open in Github: Dicision and Limitation](https://github.com/Shibli-Nomani/Secured-AI-Agents-with-Privacy-and-Saftey-Filter/blob/master/designandlimitation.md)
 
 
 **🚀 Importance:** Ensures safe, private, and compliant communication in AI agents, enabling trustworthy interactions, ethical handling of PII, and concise insights from messy inputs.

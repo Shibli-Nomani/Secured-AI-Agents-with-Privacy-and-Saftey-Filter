@@ -4,8 +4,13 @@
 
 <h4>🔗 AI Agent Code</h4>
 
+- 🏃 **Github Code**: [Open in Github](https://github.com/Shibli-Nomani/Secured-AI-Agents-with-Privacy-and-Saftey-Filter/blob/master/Secured_AI_Agents_with_Privacy_and_Safety_Filters.ipynb)  
 - 🚀 **Colab Code**: [Open in Colab](https://colab.research.google.com/drive/1xi1PclScl8TXrmWuJsRsYW0Ryw0L8FFk?usp=sharing)  
 - 📊 **Kaggle Code**: [Open in Kaggle](https://www.kaggle.com/code/shiblinomani/secured-ai-agents-with-privacy-and-safety-filters)
+
+<h4> 🎯 AI Agent Dicision and Limitation </h4>
+
+- 🐥 **Github File**: [Open in Github: Dicision and Limitation](https://github.com/Shibli-Nomani/Secured-AI-Agents-with-Privacy-and-Saftey-Filter/blob/master/designandlimitation.md)
 
 
 
@@ -161,7 +166,6 @@ flowchart LR
 |---|---|---|
 | **📧📱 Email & Phone Pattern Matching** | Detects emails & phone numbers using regex; converts each into a deterministic, irreversible token.<br>🔑 Same email/phone → same token; different email/phone → different token.<br>🧾 **Logs:** `[privacy_filter_pipeline_mode] executed: phones/emails -> [TOKEN:ab12cd34...]` | ⚠️ Regex may miss unusual formats; long text may increase processing time; only covers standard patterns. |
 | **🔒 Presidio (AnalyzerEngine + AnonymizerEngine)** | 🕵️ Finds personal info (PII) like emails, phones, SSNs, IPs; 🧹 hides it with repeatable tokens so the same data always gets the same tag.<br>🧾 **Logs:** Records what PII was hidden; errors if Presidio fails. | 🔌 Needs Presidio setup & language packs; may miss tricky PII; can slow down for very long text. |
-
 | **📊 High-Entropy Secret Detector** | 🔑 Spots secrets (API keys/tokens) by checking randomness and patterns, without saving raw data.<br>🧾 **Logs:** Notes “high_entropy_secrets” when found. | ⚖️ Might flag random strings as secrets; might miss well-hidden secrets; needs careful threshold tuning. |
 | **🔡 Leetspeak Mapping 🤖** | Turns obfuscated words (`a$$`, `f@ck`) into normal form so they can be caught.<br>🧾 **Logs:** Shows replacements under `[obfuscation_filter_mode]`. | 🔤 Doesn’t cover every trick; may miss new styles; could change harmless text. |
 | **🔠 Homoglyph Normalization 🪞** | Changes look-alike letters (Cyrillic `а`) to real Latin ones to stop bypass tricks.<br>🧾 **Logs:** Shown in obfuscation replacement logs. | 🌐 Can mess with other languages; full Unicode coverage is hard to maintain. |
